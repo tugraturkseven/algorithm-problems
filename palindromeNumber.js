@@ -13,5 +13,8 @@ var isPalindrome = function (x) {
         }
     }
 };
-
 console.log(isPalindrome(121));
+
+module.exports = {
+    isPalindrome: isPalindrome
+};

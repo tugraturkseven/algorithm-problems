@@ -34,4 +34,9 @@ var twoSum = function (nums, target) {
     }
 };
 
+module.exports = {
+    twoSum: twoSum
+};
+
+
 console.log(twoSum(numbers, target));
