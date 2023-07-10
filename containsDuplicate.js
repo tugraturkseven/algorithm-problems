@@ -7,7 +7,7 @@ Output: true
 
 */
 
-const containsDuplicate = (nums) => {
+const { isContain } = (nums) => {
     let map = {};
     for (let index = 0; index < nums.length; index++) {
         if (map.contains(nums[index])) {
@@ -18,3 +18,5 @@ const containsDuplicate = (nums) => {
     }
     return false;
 }
+
+module.exports = { containsDuplicate: isContain }
